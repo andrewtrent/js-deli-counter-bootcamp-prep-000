@@ -1,10 +1,11 @@
 //var katzDeli = [];
-//var katzDeliLine = []
-function takeANumber(katzDeliLine, name){
-  katzDeliLine.push(name)
-  var index = katzDeliLine.indexOf(name)
-  var pos = parseInt(index) + 1
-  return `Welcome, ${name}. You are number ${pos} in line.`
+//var katzDeliLine = [];
+var allDayCustomer = []
+function takeANumber(katzDeliLine){
+  allDayCustomer.push("p")
+  var id = 
+  katzDeliLine.push(allDayCustomer.length)
+  return `Your number is ${id}`
 }
 function nowServing(katzDeliLine){
   
