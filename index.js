@@ -1,5 +1,5 @@
-var katzDeli = [];
-var katzDeliLine = []
+//var katzDeli = [];
+//var katzDeliLine = []
 function takeANumber(katzDeliLine, name){
   katzDeliLine.push(name)
   var index = katzDeliLine.indexOf(name)
