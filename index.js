@@ -3,8 +3,8 @@
 var allDayCustomer = []
 function takeANumber(katzDeliLine){
   allDayCustomer.push("p")
-  var id = 
-  katzDeliLine.push(allDayCustomer.length)
+  var id = allDayCustomer.length
+  katzDeliLine.push(id)
   return `Your number is ${id}`
 }
 function nowServing(katzDeliLine){
@@ -12,8 +12,8 @@ function nowServing(katzDeliLine){
   if(katzDeliLine.length === 0){
     return `There is nobody waiting to be served!`
     } else{
-    var shiftName = katzDeliLine.shift();
-    return `Currently serving ${shiftName}.`;
+    var shiftNumber = katzDeliLine.shift();
+    return `Currently serving ${shiftNumber}.`;
     
   }
 }
