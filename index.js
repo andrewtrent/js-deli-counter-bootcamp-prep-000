@@ -2,7 +2,7 @@
 //var katzDeliLine = []
 function takeANumber(katzDeliLine, name){
   katzDeliLine.push(name)
-  var index = katzDeliLine.indexOf(name)
+  
   var pos = parseInt(index) + 1
   return `Welcome, ${name}. You are number ${pos} in line.`
 }
